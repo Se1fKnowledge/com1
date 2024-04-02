@@ -73,7 +73,7 @@ public class Dialog : MonoBehaviour
             }
             if (typeOfDialogue == "Repetative")
             {
-                return;
+                
             }
         }
     }
@@ -90,7 +90,7 @@ public class Dialog : MonoBehaviour
 
     public void ItemAppearance()
     {
-        if (ItemToAppear.activeInHierarchy == false)
+        if (ItemToAppear.activeInHierarchy == false )
         {
             ItemToAppear.SetActive(true);
         }
