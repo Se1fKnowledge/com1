@@ -11,8 +11,8 @@ public class Dialog : MonoBehaviour
     public float speedText;
     public Text DialogText;
 
-    public GameObject Layer1;
-    public GameObject Layer2;
+    public GameObject CurrentLayer;
+    public GameObject NextLayer;
 
     public GameObject ItemToAppear;
 
@@ -81,10 +81,10 @@ public class Dialog : MonoBehaviour
 
     public void NextFrame()
     {
-        if (Layer1.activeInHierarchy == true && Layer2.activeInHierarchy == false)
+        if (CurrentLayer.activeInHierarchy == true && NextLayer.activeInHierarchy == false)
         {
-            Layer1.SetActive(false);
-            Layer2.SetActive(true);
+            CurrentLayer.SetActive(false);
+            NextLayer.SetActive(true);
         }
     }
 
