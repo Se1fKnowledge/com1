@@ -16,6 +16,7 @@ public class Dialog : MonoBehaviour
     public GameObject NextLayer;
 
     public GameObject ItemToAppear;
+    public GameObject ItemToAppear2;
 
     public int index;
 
@@ -72,6 +73,10 @@ public class Dialog : MonoBehaviour
             {
                 ItemAppearance();
             }
+            if (typeOfDialogue == "ItemAppearance2")
+            {
+                ItemAppearance2();
+            }
             if (typeOfDialogue == "Repetative")
             {
                 
@@ -94,6 +99,14 @@ public class Dialog : MonoBehaviour
         if (ItemToAppear.activeInHierarchy == false )
         {
             ItemToAppear.SetActive(true);
+        }
+    }
+    public void ItemAppearance2()
+    {
+        if (ItemToAppear.activeInHierarchy == false && ItemToAppear2.activeInHierarchy == false)
+        {
+            ItemToAppear.SetActive(true);
+            ItemToAppear2.SetActive(true);
         }
     }
 }
