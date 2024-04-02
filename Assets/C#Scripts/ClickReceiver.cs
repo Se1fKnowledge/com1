@@ -14,6 +14,10 @@ public class ClickReceiver : MonoBehaviour, IPointerClickHandler
         {
             DialogueBox.SetActive(true);
         }
+        else
+        {
+            DialogueBox.SetActive(false);
+        }
     }
     
 }
