@@ -8,8 +8,13 @@ public class Dialog : MonoBehaviour
 {
     public string typeOfDialogue;
     public string[] lines;
+    public string[] linesName;
+
+    public float speedNameText;
     public float speedText;
+
     public Text DialogText;
+    public Text DialogNameText;
 
     public GameObject CurrentLayer;
     public GameObject NextLayer;
@@ -22,6 +27,7 @@ public class Dialog : MonoBehaviour
     private void Start()
     {
         DialogText.text = string.Empty;
+        DialogNameText.text= string.Empty;
         StartDialog();
     }
 
@@ -33,7 +39,12 @@ public class Dialog : MonoBehaviour
 
     IEnumerator TypeLine()
     {
-        foreach(char c in lines[index].ToCharArray()) 
+        foreach (char c in linesName[index].ToCharArray())
+        {
+            DialogNameText.text += c;
+            yield return new WaitForSeconds(speedNameText);
+        }
+        foreach (char c in lines[index].ToCharArray()) 
         {
             DialogText.text += c;
             yield return new WaitForSeconds(speedText);
@@ -50,6 +61,7 @@ public class Dialog : MonoBehaviour
         {
             StopAllCoroutines();
             DialogText.text = lines[index];
+            DialogNameText.text = linesName[index];
         }
     }
 
@@ -59,6 +71,7 @@ public class Dialog : MonoBehaviour
         {
             index++;
             DialogText.text = string.Empty;
+            DialogNameText.text = string.Empty;
             StartCoroutine(TypeLine());
         }
         else
