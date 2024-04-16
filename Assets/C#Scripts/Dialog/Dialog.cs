@@ -8,6 +8,8 @@ public class Dialog : MonoBehaviour
 {
     public string typeOfDialogue;
     public string[] lines;
+    public AudioSource[] audioSources;
+    private AudioSource currentAudioSource;
     public string[] linesName;
 
     public float speedNameText;
@@ -35,6 +37,10 @@ public class Dialog : MonoBehaviour
     {
         index = 0;
         StartCoroutine(TypeLine());
+        if (index < audioSources.Length)
+        {
+            PlayAudio(audioSources[index]);
+        }
     }
 
     IEnumerator TypeLine()
@@ -73,6 +79,16 @@ public class Dialog : MonoBehaviour
             DialogText.text = string.Empty;
             DialogNameText.text = string.Empty;
             StartCoroutine(TypeLine());
+
+            if (currentAudioSource != null)
+            {
+                currentAudioSource.Stop();
+            }
+
+            if (index < audioSources.Length)
+            {
+                PlayAudio(audioSources[index]);
+            }
         }
         else
         {
@@ -94,6 +110,11 @@ public class Dialog : MonoBehaviour
                 
             }
         }
+    }
+    private void PlayAudio(AudioSource audioSource)
+    {
+        currentAudioSource = audioSource;
+        audioSource.Play();
     }
 
 
