@@ -71,6 +71,15 @@ public class Dialog : MonoBehaviour
         }
     }
 
+    private void OnDisable()
+    {
+        // При выключении объекта останавливаем воспроизведение текущего AudioSource
+        if (currentAudioSource != null)
+        {
+            currentAudioSource.Stop();
+        }
+    }
+
     private void NextLines()
     {
         if (index < lines.Length - 1)

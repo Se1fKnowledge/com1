@@ -501,7 +501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531564399310278242, guid: c837bd6a9544ccc4188d515ff2d49a28, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 85
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 5670395735952076886, guid: c837bd6a9544ccc4188d515ff2d49a28, type: 3}
       propertyPath: m_Pivot.x
@@ -591,6 +591,15 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 5fa145bd415349848b5790ca77b53f9c, type: 3}
+    - target: {fileID: 8566093348462093246, guid: c837bd6a9544ccc4188d515ff2d49a28, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: "\u0411\u0435\u0301\u043B\u043A\u0430 \u043E\u0431\u044B\u043A\u043D\u043E\u0432\u0435\u0301\u043D\u043D\u0430\u044F
+        \u2014 \u0433\u0440\u044B\u0437\u0443\u043D \u0438\u0437 \u0441\u0435\u043C\u0435\u0439\u0441\u0442\u0432\u0430
+        \u0431\u0435\u043B\u0438\u0447\u044C\u0438\u0445. \u0415\u0434\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+        \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043B\u044C
+        \u0440\u043E\u0434\u0430 \u0431\u0435\u043B\u043E\u043A \u0432 \u0444\u0430\u0443\u043D\u0435
+        \u0420\u043E\u0441\u0441\u0438\u0438."
+      objectReference: {fileID: 0}
     - target: {fileID: 8897224801033109186, guid: c837bd6a9544ccc4188d515ff2d49a28, type: 3}
       propertyPath: m_SizeDelta.x
       value: 931.7
