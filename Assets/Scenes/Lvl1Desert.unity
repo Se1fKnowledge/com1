@@ -2449,7 +2449,7 @@ PrefabInstance:
     - target: {fileID: 8265503212783070811, guid: c837bd6a9544ccc4188d515ff2d49a28, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e2f767d8b2b5a70408b088b8f8032389, type: 3}
+      objectReference: {fileID: 21300000, guid: 9f5ba5090f6787c4fb0285a9fd12ec85, type: 3}
     - target: {fileID: 8566093348462093246, guid: c837bd6a9544ccc4188d515ff2d49a28, type: 3}
       propertyPath: lines.Array.data[0]
       value: "\u041E\u0433\u043E\u043D\u044C \u0434\u0435\u0442\u044F\u043C \u043D\u0435
@@ -2706,7 +2706,7 @@ GameObject:
   - component: {fileID: 382405933}
   - component: {fileID: 382405935}
   - component: {fileID: 382405934}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: man10001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2954,7 +2954,7 @@ GameObject:
   - component: {fileID: 393271819}
   - component: {fileID: 393271820}
   - component: {fileID: 393271821}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: man10001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4119,7 +4119,7 @@ GameObject:
   - component: {fileID: 541849893}
   - component: {fileID: 541849895}
   - component: {fileID: 541849894}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: girl20001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4358,7 +4358,7 @@ GameObject:
   - component: {fileID: 580902439}
   - component: {fileID: 580902441}
   - component: {fileID: 580902440}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: girl20001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7370,7 +7370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.21176471}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11178,7 +11178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: faef4e59513025148b903c5a341c8994, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35e4f24739c20354ab2e52c08c9794b6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11726,14 +11726,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.72156864}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.72156864}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 386d10fc948df8e41bf5e6c185805113, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e07e4fffa3808a64ebb092f1ee2fab71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12046,7 +12046,7 @@ GameObject:
   - component: {fileID: 1339287180}
   - component: {fileID: 1339287182}
   - component: {fileID: 1339287181}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: man10001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13340,7 +13340,7 @@ GameObject:
   - component: {fileID: 1423997017}
   - component: {fileID: 1423997019}
   - component: {fileID: 1423997018}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: girl20001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14451,8 +14451,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: 0}
-  m_SizeDelta: {x: 1125.4, y: 1234.9}
+  m_AnchoredPosition: {x: 0.00012207, y: 0.014893}
+  m_SizeDelta: {x: 3840, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489532473
 MonoBehaviour:
@@ -14467,7 +14467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8018868, g: 0.563208, b: 0.31394622, a: 1}
+  m_Color: {r: 0.3157436, g: 0.9339623, b: 0.2687344, a: 0.09411765}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15261,7 +15261,7 @@ GameObject:
   - component: {fileID: 1577160299}
   - component: {fileID: 1577160301}
   - component: {fileID: 1577160300}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: girl20001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16101,7 +16101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f0fceb3009de72c428947254f7438947, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c06fc76cca659fd4a8700ce817c9ba7f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17467,7 +17467,7 @@ GameObject:
   - component: {fileID: 1928027086}
   - component: {fileID: 1928027088}
   - component: {fileID: 1928027087}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: man10001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19018,6 +19018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Objects
       objectReference: {fileID: 0}
+    - target: {fileID: 8265503212783070811, guid: c837bd6a9544ccc4188d515ff2d49a28, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 35e4f24739c20354ab2e52c08c9794b6, type: 3}
     - target: {fileID: 8566093348462093246, guid: c837bd6a9544ccc4188d515ff2d49a28, type: 3}
       propertyPath: lines.Array.data[0]
       value: "\u041F\u0443\u0441\u0442\u043E\u0439 \u0441\u043A\u0435\u043B\u0435\u0442
