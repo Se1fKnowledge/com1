@@ -8,7 +8,7 @@ public class AudioConroller1: MonoBehaviour
     public Slider slider;
     public void Awake()
     {
-        slider.value = PlayerPrefs.GetFloat("SliderValue", 0.5f);
+        slider.value = PlayerPrefs.GetFloat("SliderValueVoice", 0.5f);
     }
     public void Update()
     {
@@ -16,7 +16,7 @@ public class AudioConroller1: MonoBehaviour
     }
     public void SaveSliderValue()
     {
-        PlayerPrefs.SetFloat("SliderValue", slider.value);
+        PlayerPrefs.SetFloat("SliderValueVoice", slider.value);
         PlayerPrefs.Save();
     }
 }

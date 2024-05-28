@@ -7,7 +7,7 @@ public class SliderValueLoader1 : MonoBehaviour
     void Start()
     {
         // Загрузка сохраненного значения слайдера или использование значения по умолчанию
-        float savedValue = PlayerPrefs.GetFloat("SliderValue", 0.5f);
+        float savedValue = PlayerPrefs.GetFloat("SliderValueVoice", 0.5f);
         audioSource.volume = savedValue;
     }
 }
