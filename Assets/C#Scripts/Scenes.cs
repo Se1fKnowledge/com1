@@ -10,7 +10,7 @@ public class Scenes : MonoBehaviour
     {
         SceneManager.LoadScene(numberScenes);
     }
-    .
+    
     public void Exit()
     {
         Application.Quit();
